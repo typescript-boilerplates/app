@@ -12,7 +12,7 @@
     "build:module": "tsc -p tsconfig.module.json",
     "fix": "run-s fix:*",
     "fix:standard": "standardx --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin ./{src,test,.vscode}/**/*.{ts,js} --fix",
-    "test": "run-s build test:*",
+    "test": "run-s test:*",
     "test:jest": "jest",
     "watch": "nodemon",
     "watch:test": "jest --watch",
