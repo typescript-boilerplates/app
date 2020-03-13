@@ -1,0 +1,5 @@
+# Don't uploads these files to save size
+test/
+src/
+jest.config.js
+tsconfig.json

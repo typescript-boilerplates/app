@@ -1,0 +1,16 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "jest": true
+  },
+  "plugins": [
+    "@typescript-eslint/eslint-plugin"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  }
+}
