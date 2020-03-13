@@ -1,7 +1,17 @@
 # Don't uploads these files to save size
-scripts/
+.vscode/
 src/
 test/
+.github/
 
+.nodemon.json
+.travis.yml
 jest.config.js
 tsconfig.json
+tsconfig.module.json
+
+# Standard Node ignore
+.nyc_output
+*.log
+**/*.spec.*
+coverage
