@@ -22,7 +22,7 @@
     "doc:publish": "gh-pages -m \"[ci skip] Updates\" -d build/docs",
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "trash build",
-    "prepare-release": "run-s reset test cov:check doc:html version doc:publish"
+    "prepare-release": "run-s reset test doc:html doc:publish"
   },
   "scripts-info": {
     "describe": "Display information about the package scripts",
