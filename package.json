@@ -16,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/USER/PROJECT.git"
   },
+  "keywords": [],
   "author": "USER",
   "license": "MIT",
   "bugs": {
