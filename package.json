@@ -1,0 +1,38 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node ./dist/index.js",
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "lint": "standardx --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin ./{src,test}/**/*.{ts,js} --fix",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USER/PROJECT"
+  },
+  "author": "USER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/USER/PROJECT/issues"
+  },
+  "homepage": "https://github.com/USER/PROJECT#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "standardx": "^5.0.0",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
