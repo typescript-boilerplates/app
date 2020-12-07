@@ -60,7 +60,7 @@
     "trash-cli": "^4.0.0",
     "ts-jest": "^25.5.1",
     "ts-node": "^9.1.0",
-    "ts-standard": "^9.0.0",
+    "ts-standard": "^10.0.0",
     "typescript": "^3.9.7"
   }
 }
